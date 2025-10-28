@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - LUXE Premium Perfumes</title>
+    <link rel="stylesheet" href="../assets/css/contact.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">LUXE</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Shop</a></li>
+                <li><a href="about_as.html">About</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+            <div class="nav-icons">
+                <button class="icon-btn">🔍</button>
+                <button class="icon-btn cart-btn">
+                    🛒
+                    <span class="cart-badge">0</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <div class="page-hero-content">
+            <p class="page-tag">GET IN TOUCH</p>
+            <h1 class="page-title">Contact Us</h1>
+            <p class="page-desc">We'd love to hear from you. Reach out to us for any inquiries or assistance</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="contact-container">
+            <!-- Contact Info -->
+            <div class="contact-info">
+                <div class="info-card">
+                    <div class="info-icon">📍</div>
+                    <h3>Visit Our Boutique</h3>
+                    <p>123 Fragrance Avenue<br>Paris, France 75001</p>
+                    <p style="margin-top: 15px;">
+                        <a href="#">Get Directions →</a>
+                    </p>
+                </div>
+
+                <div class="info-card">
+                    <div class="info-icon">📞</div>
+                    <h3>Call Us</h3>
+                    <p>Main: <a href="tel:+33123456789">+33 1 23 45 67 89</a></p>
+                    <p>Toll Free: <a href="tel:+18001234567">+1 800 123 4567</a></p>
+                    <p style="margin-top: 10px; font-size: 14px;">Monday - Saturday: 9:00 AM - 7:00 PM<br>Sunday: 10:00 AM - 5:00 PM</p>
+                </div>
+
+                <div class="info-card">
+                    <div class="info-icon">✉️</div>
+                    <h3>Email Us</h3>
+                    <p>General: <a href="mailto:hello@luxeperfume.com">hello@luxeperfume.com</a></p>
+                    <p>Support: <a href="mailto:support@luxeperfume.com">support@luxeperfume.com</a></p>
+                    <p>Press: <a href="mailto:press@luxeperfume.com">press@luxeperfume.com</a></p>
+                </div>
+
+                <div class="info-card">
+                    <div class="social-connect">
+                        <h4>Follow Us</h4>
+                        <div class="social-icons">
+                            <div class="social-icon" data-platform="facebook">📘</div>
+                            <div class="social-icon" data-platform="instagram">📸</div>
+                            <div class="social-icon" data-platform="twitter">🐦</div>
+                            <div class="social-icon" data-platform="linkedin">💼</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="contact-form-container">
+                <div class="form-header">
+                    <h2>Send Us a Message</h2>
+                    <p>Fill out the form below and we'll get back to you within 24 hours</p>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="firstName">First Name *</label>
+                            <input type="text" id="firstName" name="firstName" required placeholder="John">
+                        </div>
+                        <div class="form-group">
+                            <label for="lastName">Last Name *</label>
+                            <input type="text" id="lastName" name="lastName" required placeholder="Doe">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required placeholder="john@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" placeholder="+1 (555) 123-4567">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subject *</label>
+                        <select id="subject" name="subject" required>
+                            <option value="">Select a subject</option>
+                            <option value="general">General Inquiry</option>
+                            <option value="product">Product Information</option>
+                            <option value="order">Order Status</option>
+                            <option value="return">Returns & Exchanges</option>
+                            <option value="partnership">Partnership Opportunities</option>
+                            <option value="press">Press & Media</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Your Message *</label>
+                        <textarea id="message" name="message" required placeholder="Tell us how we can help you..."></textarea>
+                    </div>
+
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="newsletter" name="newsletter">
+                        <label for="newsletter">Subscribe to our newsletter for exclusive offers and updates</label>
+                    </div>
+
+                    <button type="submit" class="submit-btn">
+                        <span>Send Message</span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="map-container">
+            <div class="section-header">
+                <p class="section-tag">FIND US</p>
+                <h2 class="section-title">Our Location</h2>
+            </div>
+            <div class="map-wrapper">
+                <div class="map-placeholder">
+                    <div class="map-icon">🗺️</div>
+                    <p>Interactive map would be displayed here</p>
+                    <p style="margin-top: 10px; font-size: 14px;">123 Fragrance Avenue, Paris, France 75001</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hours Section -->
+    <section class="hours-section">
+        <div class="hours-container">
+            <h2>Business Hours</h2>
+            <div class="hours-grid">
+                <div class="hour-item">
+                    <div class="hour-day">Monday - Friday</div>
+                    <div class="hour-time">9:00 AM - 7:00 PM</div>
+                </div>
+                <div class="hour-item">
+                    <div class="hour-day">Saturday</div>
+                    <div class="hour-time">10:00 AM - 6:00 PM</div>
+                </div>
+                <div class="hour-item">
+                    <div class="hour-day">Sunday</div>
+                    <div class="hour-time">10:00 AM - 5:00 PM</div>
+                </div>
+                <div class="hour-item">
+                    <div class="hour-day">Public Holidays</div>
+                    <div class="hour-time">11:00 AM - 4:00 PM</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="faq-container">
+            <div class="section-header">
+                <p class="section-tag">QUESTIONS?</p>
+                <h2 class="section-title">Frequently Asked</h2>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>How long does shipping take?</h3>
+                    <span class="faq-icon">▼</span>
+                </div>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">
+                        Standard shipping typically takes 3-5 business days within France and 7-10 business days internationally. We also offer express shipping options for faster delivery. All orders are tracked and you'll receive updates via email.
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>What is your return policy?</h3>
+                    <span class="faq-icon">▼</span>
+                </div>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">
+                        We offer a 30-day return policy on all unopened products. If you're not satisfied with your purchase, you can return it for a full refund or exchange. Opened products can be returned within 14 days with a valid reason. Please ensure items are in their original packaging.
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Do you offer fragrance consultations?</h3>
+                    <span class="faq-icon">▼</span>
+                </div>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">
+                        Yes! We offer complimentary fragrance consultations both in-store and virtually. Our expert perfumers will help you discover your perfect scent based on your preferences and personality. Book an appointment through our contact form or call us directly.
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Are your perfumes cruelty-free?</h3>
+                    <span class="faq-icon">▼</span>
+                </div>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">
+                        Absolutely. All LUXE fragrances are 100% cruelty-free and never tested on animals. We're committed to ethical practices and source our ingredients responsibly. Many of our products also feature vegan-friendly formulations.
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Can I customize or create a signature scent?</h3>
+                    <span class="faq-icon">▼</span>
+                </div>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">
+                        Yes! We offer a bespoke fragrance service where our master perfumers work with you to create a completely unique signature scent. This premium service includes consultations, scent trials, and a custom-designed bottle. Contact us for more information and pricing.
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Do you ship internationally?</h3>
+                    <span class="faq-icon">▼</span>
+                </div>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">
+                        Yes, we ship to over 75 countries worldwide. International shipping rates and delivery times vary by location. Customs duties and taxes may apply depending on your country. Please check our shipping policy for specific details about your region.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-col">
+                <h3>LUXE</h3>
+                <p>Premium perfumes for those who appreciate the finer things in life.</p>
+                <div class="social-icons">
+                    <div class="social-icon">📘</div>
+                    <div class="social-icon">📸</div>
+                    <div class="social-icon">🐦</div>
+                    <div class="social-icon">💼</div>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Shop</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Customer Care</h3>
+                <ul>
+                    <li><a href="#">Shipping Information</a></li>
+                    <li><a href="#">Returns & Exchanges</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Size Guide</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Legal</h3>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Cookie Policy</a></li>
+                    <li><a href="#">Accessibility</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 LUXE. All rights reserved. Crafted with passion in Paris.</p>
+        </div>
+    </footer>
+
+    <!-- Success Message -->
+    <div class="success-message" id="successMessage">
+        <span class="success-icon">✓</span>
+        <span>Message sent successfully! We'll get back to you soon.</span>
+    </div>
+    <script src="../assets/js/contact.js"></script>
+</body>
+</html>
